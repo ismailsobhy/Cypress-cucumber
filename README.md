@@ -41,3 +41,9 @@ This will create report/testcases-report, open index.html in your browser
 
 ![image](https://user-images.githubusercontent.com/32613878/218597479-fd17b476-4ac6-4ab4-845d-7643b99c706c.png)
 
+
+https://user-images.githubusercontent.com/32613878/218599553-4eec3c4f-947a-462c-ba26-de10ac7f21e9.mp4
+
+
+
+
