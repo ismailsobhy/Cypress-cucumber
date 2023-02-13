@@ -1,3 +1,4 @@
+// The step definitions will use the page objects
 import HomePage from "../page-objects/HomePage";
 import QuestionnairePage from "../page-objects/QuestionnairePage";
 import ResultPage from "../page-objects/ResultPage";
