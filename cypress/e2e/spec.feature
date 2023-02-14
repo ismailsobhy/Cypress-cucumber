@@ -1,5 +1,5 @@
 Feature: Powerus
-    Scenario Outline: <testCaseTitle> - should give 3 pay differences
+    Scenario Outline: <testCaseTitle> - should give 3 salary differences
         Given User opens Powerus
         When User selects Elektriker Gehalt Übersicht
         And User clicks on Kostenlos Gehalt checken
@@ -33,7 +33,7 @@ Feature: Powerus
         Then Salary check provides estimations successfully
         Then User finds 2 pay differences
 
-    Scenario: TC#4  Finished Ausbildung, cannot travel,5-10 year exp should get only one pay difference
+    Scenario: TC#4  Finished Ausbildung, cannot travel,5-10 year exp should get only one salary difference
         Given User opens Powerus
         When User selects Elektriker Gehalt Übersicht
         And User clicks on Kostenlos Gehalt checken
