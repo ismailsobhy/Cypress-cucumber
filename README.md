@@ -8,7 +8,8 @@ The project is done using Page object model and uses:
 ## Project Structure
 ![image](https://user-images.githubusercontent.com/32613878/218597358-58cbb890-4a6e-4c05-a972-b21f58755096.png)
 - Depending on edits or additions of the page, the page object can be updated easily, they exist in cypress/support/page-objects.
-- Adding new test cases, or editing the existing ones can be done in cypress/support/step_definitions.
+- New steps definations or editing existing ones, this can be done in cypress/support/step_definitions. This enables to create different type of stypes
+- After that add test cases in cypress/e2e folde in feature files,  you can create new testcases based on older step definitions or newly created ones.
 
 ## Installation
 Run this to install the project
