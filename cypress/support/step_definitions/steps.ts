@@ -1,7 +1,7 @@
 // The step definitions will use the page objects
-import HomePage from "../page-objects/HomePage";
-import QuestionnairePage from "../page-objects/QuestionnairePage";
-import ResultPage from "../page-objects/ResultPage";
+import HomePage from "../page_objects/HomePage";
+import QuestionnairePage from "../page_objects/QuestionnairePage";
+import ResultPage from "../page_objects/ResultPage";
 import { Given, When, Then, And } from "cypress-cucumber-preprocessor/steps";
 
 const homePage = new HomePage();
