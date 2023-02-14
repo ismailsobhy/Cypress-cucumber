@@ -26,7 +26,7 @@ class ResultPage {
   }
 
   verifyYearOfExperienceTitle(value: string) {
-    this.elements.yearOfExperienceTitle().contains(value);
+    this.elements.yearOfExperienceTitle().should("contain", value);
   }
 
   verifyYearOfExperienceValue(value: string) {
