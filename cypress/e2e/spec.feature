@@ -18,7 +18,7 @@ Feature: Powerus
             | testCaseTitle                                                | educationtype                   | yearsOfExp  | travelType      | state   | avgSalary         | statePayDifference  | yearOfExpPayDifference | travelTypePayDifference | travelTitle                        |
             | TC#1 Finished Ausbildung, unrestricted travel,10-20 year exp | Abgeschlossene Berufsausbildung | 10-20 Jahre | Uneingeschränkt | Bayern  | Ø 3.414 € / Monat | +162 €brutto/ Monat | +310 €brutto/ Monat    | +246 €netto/ Monat      | Uneingeschränkte Reisebereitschaft |
             | TC#2 Tech/Meister trainng, 0-2 year exp with few travel days | Techniker / Meister             | 0-2 Jahre   | Wenig           | Hamburg | Ø 2.922 € / Monat | -295 €brutto/ Monat | -730 €brutto/ Monat    | -132 €netto/ Monat      | Ein paar Tage im Monat             |
-    Scenario: TC#3  still in training, cannot travel,2-5 year exp should get 2 salary differences
+    Scenario: TC#3 In apprenticeship, cannot travel,2-5 year exp should get 2 salary differences
         Given User opens Powerus
         When User selects Elektriker Gehalt Übersicht
         And User clicks on Kostenlos Gehalt checken
@@ -33,7 +33,7 @@ Feature: Powerus
         Then Salary check provides estimations successfully
         Then User finds 2 pay differences
 
-    Scenario: TC#4  still in training, cannot travel,5-10 year exp should get only one pay difference
+    Scenario: TC#4  Finished Ausbildung, cannot travel,5-10 year exp should get only one pay difference
         Given User opens Powerus
         When User selects Elektriker Gehalt Übersicht
         And User clicks on Kostenlos Gehalt checken
