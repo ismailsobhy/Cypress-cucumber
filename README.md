@@ -25,10 +25,10 @@ To run the project in headless mode
 <br />
 `npx cypress run --spec cypress/e2e/spec.feature --browser chrome`
 
-Both will create reports/cucumber-json, this will help in creating the html report in next section
+Both will create the folder reports/cucumber-json, this will help in creating the html report in next section
 
 ## Generate reports
-Only when reports/cucumber-json folder is generated, follow the next steps 
+Only when reports/cucumber-json folder folder is generated, follow the next steps 
 
 Also, you need to have ts-node installed
 <br />
