@@ -1,15 +1,15 @@
 # Powerus-cypress-cucumber
 
-The project is done using Page object model and uses:
+The project applies Page object model(POM) and uses the following:
 - cypress-cucumber-preprocessor for Behavior Driven Development (BDD)
 - multiple-cucumber-html-reporter for reporting
 
 
 ## Project Structure
 ![image](https://user-images.githubusercontent.com/32613878/218597358-58cbb890-4a6e-4c05-a972-b21f58755096.png)
-- Depending on edits or additions of the page, the page object can be updated easily, they exist in cypress/support/page-objects.
-- New steps definations or editing existing ones, this can be done in cypress/support/step_definitions. This enables to create different type of stypes
-- After that add test cases in cypress/e2e folde in feature files,  you can create new testcases based on older step definitions or newly created ones.
+- Depending on edits or additions of the page, the page object can be updated easily, they exist in cypress/support/page_objects.  
+- New steps definations or editing existing ones, this can be done in cypress/support/step_definitions. This enables to create different type of steps.
+- After that add test cases in cypress/e2e folder in feature files,  you can create new testcases based on older step definitions or newly created ones which are readable to stakeholders.
 
 ## Installation
 Run this to install the project
@@ -17,15 +17,16 @@ Run this to install the project
 `npm install`
  
 ## Usage
-To run and select the browser you can use
+
+To run the project in headless mode:
+<br />
+`npx cypress run --spec cypress/e2e/spec.feature --browser chrome`
+page object model (pom)
+To run and select the browser you can use:
 <br />
 `npx cypress open`
 
-To run the project in headless mode
-<br />
-`npx cypress run --spec cypress/e2e/spec.feature --browser chrome`
-
-Both will create the folder reports/cucumber-json, this will help in creating the html report in next section
+Both will create the folder reports/cucumber-json, this will help in creating the html report in the next section.
 
 ## Generate reports
 Only when reports/cucumber-json folder folder is generated, follow the next steps 
