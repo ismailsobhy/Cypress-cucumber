@@ -1,4 +1,4 @@
-# Powerus-cypress-cucumber
+# Cypress-cucumber
 
 The project applies Page object model(POM) and uses the following:
 - cypress-cucumber-preprocessor for Behavior Driven Development (BDD)
